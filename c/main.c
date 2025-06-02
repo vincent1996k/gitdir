@@ -3,7 +3,7 @@
 
 
 
-int main(int argc, char* argv){
+void main(){
 	puts("main function");
         int a,b;
         puts("Entrez la valeur de a : ");
@@ -13,6 +13,4 @@ int main(int argc, char* argv){
         scanf("%d",&b);
         printf("b = %d\n",b);
 	calcul(a,b);
-
-	return 0;
 }
