@@ -11,7 +11,7 @@ void calcul(int a, int b){
 
 }
 
-int factoriel(int n){
+long double factoriel(int n){
 	if(n==0) return 1;
     else return n*factoriel(n-1);
 }
