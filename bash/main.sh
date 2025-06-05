@@ -29,11 +29,17 @@ calcul(){
 	echo "Le resultat de l'operation b! est $(factoriel $b)"
 }
 
-echo "main function"
+main(){
+	  echo "main function"
 
-# Accept user input
-read -p "Entrez la valeur de a : " a
-echo "a = $a"
-read -p "Entrez la valeur de b : " b
-echo "b = $b"
-calcul $a $b
+	  # Accept user input
+	  read -p "Entrez la valeur de a : " a
+	  echo "a = $a"
+	  read -p "Entrez la valeur de b : " b
+	  echo "b = $b"
+	  calcul $a $b
+}
+commit(){
+  git add $1
+  git commit -m "$2 $3"
+}
