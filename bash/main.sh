@@ -43,3 +43,15 @@ commit(){
   git add $1
   git commit -m "$2 $3"
 }
+push(){
+  git push origin $1
+}
+master(){
+  git checkout master
+}
+vincent(){
+  git checkout vincent
+}
+rebase(){
+  git pull --reabse $1
+}
